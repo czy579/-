@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:qcpedqfrmqyntcuwydir.supabase.co)",
+      "WebFetch(domain:qcpedqfrmqntcuwydir.supabase.co)",
+      "PowerShell(git *)",
+      "PowerShell($git = \"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\"; cd \"D:\\\\claude code\\\\ai-companion\"; & $git config user.email \"ai-companion@local.dev\"; & $git config user.name \"AI Companion\"; & $git add -A; & $git commit -m \"🎉 初始化 AI 伴侣项目\")"
+    ]
+  }
+}
