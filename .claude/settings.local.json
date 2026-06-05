@@ -4,7 +4,11 @@
       "WebFetch(domain:qcpedqfrmqyntcuwydir.supabase.co)",
       "WebFetch(domain:qcpedqfrmqntcuwydir.supabase.co)",
       "PowerShell(git *)",
-      "PowerShell($git = \"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\"; cd \"D:\\\\claude code\\\\ai-companion\"; & $git config user.email \"ai-companion@local.dev\"; & $git config user.name \"AI Companion\"; & $git add -A; & $git commit -m \"🎉 初始化 AI 伴侣项目\")"
+      "PowerShell($git = \"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\"; cd \"D:\\\\claude code\\\\ai-companion\"; & $git config user.email \"ai-companion@local.dev\"; & $git config user.name \"AI Companion\"; & $git add -A; & $git commit -m \"🎉 初始化 AI 伴侣项目\")",
+      "PowerShell($git = \"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\"; cd \"D:\\\\claude code\\\\ai-companion\"; & $git remote add origin https://github.com/czy579/-.git; & $git branch -M main; & $git push -u origin main 2>&1)",
+      "PowerShell(npx vercel --version 2>&1 | Select-Object -First 1)",
+      "PowerShell(cd \"D:\\\\claude code\\\\ai-companion\"; $env:VERCEL_TOKEN=\"\"; npx vercel deploy --yes --public --token=\"$env:VERCEL_TOKEN\" 2>&1 | Select-Object -First 20)",
+      "PowerShell($git = \"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\"; cd \"D:\\\\claude code\\\\ai-companion\"; & $git add -A; & $git commit -m \"♻️ 迁移到 Next.js 15 + Cloudflare Pages\"; & $git push 2>&1)"
     ]
   }
 }
